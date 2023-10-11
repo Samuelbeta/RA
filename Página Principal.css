@@ -1,5 +1,5 @@
 body{
-    background-color: #F792AE;
+    background-color: #7f68c4;
 }
 #fondo{
 	background: #591D1D;/*Color de fondo*/
@@ -12,30 +12,20 @@ body{
 	overflow-x:hidden;
     color:rgb(0, 0, 0);
 }
-/*# = id      . = class  */
 .fondo{
 	background:#590b0b;/*Color de fondo*/
-	width:85%;/*Ancho*/
-	/*height:80px;Alto*/
+	width:85%;
 	margin:5%;/*Margenes exteriores*/
 	padding:35px;/*Margenes interiores*/
     border-radius: 8px;
-    /*border-width: 10px;/*Ancho del borde*/
-	/*border-color: black;/*Color del borde*/
-	/*border-style: solid;/*Estilo del borde*/
-    /*overflow:visible;*/
     overflow:hidden;
-	/*overflow:hidden;*/
-	/*overflow:scroll;*/
-	/*overflow-y:auto*/
 	overflow-x:hidden;
 }
 h1{
 	font-size: 50px;
 	font-family:'Times New Roman', Times, serif;
-	color: #F792AE;
+	color: #7f68c4;
 }
-
 h6{
 	font-size: 50px;
 	font-family:'Times New Roman', Times, serif;
@@ -48,7 +38,6 @@ h7{
 	text-align: center;
 	color: rgb(0, 0, 0);
 }
-
 p{
 	font-size: 30px;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,8 +45,8 @@ p{
 	color: rgb(0, 0, 0);
 	margin-left: 30px;
 	margin-right: 30px;
+	margin-bottom: 40px;
 }
-
 .ol li {
 	font-size: 30px;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +70,6 @@ p{
     text-align: center;
     font-size: 14px;
 }
-
 dt {
   line-height: 1.5;
   font-size: 30px;
@@ -91,16 +79,11 @@ dt {
 	margin-left: 50px;
 	margin-right: 30px;
 }
-
 /*///////////MENU//////////////////////////////////////////////////*/
 * {
 	padding: 0;
 	margin: 0;
   }
-  p {
-	margin-bottom: 40px;
-  }
-
   .wrapper {
 	width: 95%;
 	margin: auto;
@@ -112,7 +95,6 @@ dt {
 	position: fixed;
 	z-index: 20;
   }
-  
   nav {
 	float: left; /* Desplazamos el nav hacia la izquierda */
   }
@@ -132,15 +114,12 @@ dt {
 	text-decoration: none;
   }
   nav ul li:hover {
-	background: #591D1D;
+	background: #7f68c4;
   }
   .contenido {
 	padding-top: 90px;
   }
-/*///////////FINAL DE MENU//////////////////////////////////////////////////*/
-
 /*//////////////// SLIDER DE IMAGENES ////////////////////////*/
-
 *{
     margin: 0;
     padding: 0;
@@ -274,7 +253,6 @@ dt {
 .item-select-slid {
     background: #FFF  !important;
 }
-
 @media screen and (max-width: 460px){
     .content_slider h2 {
         font-size: 15pt !important;
@@ -302,20 +280,11 @@ dt {
         padding: 10px 30px;
         font-size: 10pt;
     }
-
 }
-  /*//////////////// FINAL DE SLIDER DE IMAGENES ////////////////////////*/
- /* .imagen.derecha {
-    float: right;
-    margin: 1em 0 1em 1em;
-}*/
-
-
 /*//////////////// FOOTER ////////////////////////*/
 footer{
 	background-color: #FAF8F3;
 	color: var(--second-c);
-
   }
   footer ul{
 	padding:0;
@@ -348,7 +317,7 @@ footer{
 	line-height: 2;
   }
   .link-elements-footer li a{
-	color:#F792AE;
+	color:#7f68c4;
 	font-size: 20px;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: rgb(0, 0, 0);
@@ -367,7 +336,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	padding: 0 1rem;
-	color: #591D1D;
+	color: #7f68c4;
 	font-size: .9rem;
 	max-width: 1800px;
 	margin: 0 auto;
@@ -402,13 +371,10 @@ footer{
 	}
   }
 /*//////////////// FINAL DE SLIDER DE IMAGENES ////////////////////////*/
-
-
 [class*="col-"]{
     float:left;
     padding:20px;
 }
-
 @media only screen and (min-width:600px)
 {
         .col-1{width: 10%;}
@@ -422,137 +388,7 @@ footer{
         .col-9{width: 90%;}
         .col-100{width: 100%;}
 }
-
-/*//////////////// REGISTRO ////////////////////////*/
-.wrap {
-	width: 90%;
-	max-width: 500px;
-	padding: 40px;
-	margin: auto;
-	background: #fff;
-	box-shadow: 0px 0px 3px grey; }
-  
-  .contenedor-formulario {
-	width: 100%;
-	color: #F792AE;
-	padding: 60px; }
-	.contenedor-formulario .formulario {
-	  width: 100%;
-	  margin: auto; }
-	  .contenedor-formulario .formulario .input-group {
-		position: relative;
-		margin-bottom: 32px; }
-		.contenedor-formulario .formulario .input-group input[type="text"],
-		.contenedor-formulario .formulario .input-group input[type="email"],
-		.contenedor-formulario .formulario .input-group input[type="password"] {
-		  font-family: "Roboto";
-		  font-size: 16px;
-		  color: #590b0b;
-		  width: 100%;
-		  outline: none;
-		  padding: 15px;
-		  background: none;
-		  border: none;
-		  border-bottom: 2px solid #590b0b; }
-		  .contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
-		  .contenedor-formulario .formulario .input-group input[type="email"]:focus,
-		  .contenedor-formulario .formulario .input-group input[type="email"]:active,
-		  .contenedor-formulario .formulario .input-group input[type="password"]:focus,
-		  .contenedor-formulario .formulario .input-group input[type="password"]:active {
-			outline: none;
-			border-bottom: 2px solid #590b0b; }
-		  .contenedor-formulario .formulario .input-group input[type="text"].error,
-		  .contenedor-formulario .formulario .input-group input[type="email"].error,
-		  .contenedor-formulario .formulario .input-group input[type="password"].error {
-			border-bottom: 2px solid #D32F2F; }
-			.contenedor-formulario .formulario .input-group input[type="text"].error + label,
-			.contenedor-formulario .formulario .input-group input[type="email"].error + label,
-			.contenedor-formulario .formulario .input-group input[type="password"].error + label {
-			  color: #D32F2F; }
-		.contenedor-formulario .formulario .input-group label {
-		  color: #590b0b; }
-		  .contenedor-formulario .formulario .input-group label.label {
-			-webkit-transition: all 0.3s ease;
-			-o-transition: all 0.3s ease;
-			transition: all 0.3s ease;
-			margin-left: 15px;
-			font-size: 16px;
-			line-height: 16px;
-			position: absolute;
-			top: 16px;
-			left: 0; }
-			.contenedor-formulario .formulario .input-group label.label.active {
-			  top: -12px;
-			  font-size: 12px;
-			  line-height: 12px;
-			  color: #B6B6B6; }
-		.contenedor-formulario .formulario .input-group.checkbox label, .contenedor-formulario .formulario .input-group.radio label {
-		  display: inline-block;
-		  cursor: pointer;
-		  color: #590b0b;
-		  position: relative;
-		  padding: 5px 15px 5px 51px;
-		  font-size: 1em;
-		  border-radius: 3px;
-		  -webkit-transition: all 0.3s ease;
-		  -o-transition: all 0.3s ease;
-		  transition: all 0.3s ease; }
-		  .contenedor-formulario .formulario .input-group.checkbox label:hover, .contenedor-formulario .formulario .input-group.radio label:hover {
-			background: #bbdefb; }
-		  .contenedor-formulario .formulario .input-group.checkbox label:before, .contenedor-formulario .formulario .input-group.radio label:before {
-			content: "";
-			display: inline-block;
-			width: 17px;
-			height: 17px;
-			position: absolute;
-			left: 15px;
-			border-radius: 50%;
-			background: none;
-			border: 2px solid #590b0b; }
-		.contenedor-formulario .formulario .input-group.error label {
-		  color: #D32F2F; }
-		  .contenedor-formulario .formulario .input-group.error label:hover {
-			background: rgba(211, 47, 47, 0.2); }
-		  .contenedor-formulario .formulario .input-group.error label:before {
-			border: 2px solid #D32F2F; }
-		.contenedor-formulario .formulario .input-group.radio input[type="radio"] {
-		  display: none; }
-		  .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label:before {
-			display: none; }
-		  .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label {
-			padding: 5px 15px;
-			background: #590b0b;
-			border-radius: 2px;
-			color: #f2f2f2; }
-		.contenedor-formulario .formulario .input-group.checkbox label:before {
-		  border-radius: 3px; }
-		.contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"] {
-		  display: none; }
-		  .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before {
-			display: none; }
-		  .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label {
-			background: #590b0b;
-			color: #f2f2f2;
-			padding: 5px 15px; }
-	  .contenedor-formulario .formulario input[type="submit"] {
-		background: #590b0b;
-		border-radius: 1px;
-		border: 2px solid #f2f2f2;
-		color: #fff;
-		cursor: pointer;
-		display: inline-block;
-		font-family: "Roboto";
-		font-size: 16px;
-		padding: 15px;
-		width: 100%;
-		-webkit-transition: all 0.3s ease;
-		-o-transition: all 0.3s ease;
-		transition: all 0.3s ease; }
-		.contenedor-formulario .formulario input[type="submit"]:hover {
-		  background: #590b0b; }
-
 /*//////////////// Boton Scroll ////////////////////////*/
-		  /* BackToTop button css */
 #scroll {
     position:fixed;
     right:10px;
@@ -560,7 +396,7 @@ footer{
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#591D1D;
+    background-color:#7f68c4;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -579,8 +415,7 @@ footer{
     border-bottom-color:#FAF8F3
 }
 #scroll:hover {
-    background-color:#F792AE;
+    background-color:#7f68c4;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
-}
-  
+}  
